@@ -6,9 +6,14 @@
       <title>Yang Liu's Homepage</title>
       <meta id="viewport" name="viewport" content="width=device-width" />
       <meta name="description" content="Yang Liu is a graduate student in Natural Language Processing" />
-      <link rel="stylesheet" href="./theme/css/normalize.css" type="text/css" />
+      <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
       <link rel="stylesheet" href="./theme/css/base.css" type="text/css" />
-      <link rel="stylesheet" href="./theme/css/code.css" type="text/css" />
+      <link rel="stylesheet" href="./theme/css/style.css" type="text/css" />
+	  <link rel="stylesheet" type="text/css" href="./theme/css/googlefonts.css">
+	  
+	  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐏</text></svg>">
+
+
       <!-- Global site tag (gtag.js) - Google Analytics 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110992267-1"></script>
       <meta name="google-site-verification" content="91RwKGlya3wgg65Y7seyIC3--fiS_BTamcFSuo_EXFo" />
@@ -25,43 +30,50 @@
    </head>
    <body>
       <div class="content">
-      <header>
-         <img src="./theme/images/photo.png" alt="me">
+      <header class="profile">
+         <img  src="./theme/images/photo.png" alt="me">
          <h1>Yang Liu</h1>
-         <ul>
-            <li><a href="./#pubs">Publications</a></li>
-            <li><a href="./#projects">Projects</a></li>
-            <li><a href="./#backgroud">Backgroud</a></li>
-            <li><a href="./resume.pdf">CV</a></li>
-            <!-- <li><a href="mailto:cs-ly@pku.edu.cn"</a>Contact</li> -->
-         </ul>
       </header>
       <section id="bio">
-         I am now a Senior Researcher at Microsoft working on Natural Language Processing.
-         <br>
-         I received my PhD degree from <a href="http://web.inf.ed.ac.uk/ilcc">University of Edinburgh</a> 2020, under supvervision of Prof. <a href='https://homepages.inf.ed.ac.uk/mlap/'>Mirella Lapata</a>.
-<!--          I am honored to have Prof. Mirella Lapata as my PhD supervisor. I was lucky to be awarded a <a href="https://ai.google/research/outreach/phd-fellowship/">Google PhD Fellowship</a>. -->
- <br>
-         My main research interest is Text Summarization and Structure Learning. <br>
-         Check out my <a href="https://scholar.google.com/citations?user=HxTr-CtMdrsC">Google Scholar</a>, <a href="https://www.linkedin.com/in/yang-liu-2a0881b1/">Linkedin</a>, or <a href="mailto:yaliu10@microsoft.com">email me</a>.<br>
-              <b> <a href="https://www.microsoft.com/en-us/research/people/yaliu10/">My new page at Microsoft</a></b>
-         </section>
-         <section id="news">
-         <h1>News:</h1>
-         <br>
+	  
+	  
+    <div class="clearfix">
+	
+      <p>I am a Senior Researcher at <a href="https://www.microsoft.com/en-us/research/people/yaliu10/">Microsoft</a> working on Natural Language Processing.</p>	    
+<p>I received my PhD degree from  <a href="http://web.inf.ed.ac.uk/ilcc">University of Edinburgh</a>  in 2020, under supvervision of Prof. <a href="https://homepages.inf.ed.ac.uk/mlap/">Mirella Lapata</a>. 
+</p>
+    
+	<p>
+My main research interest is Text Summarization and Structure Learning.
+	    </p>
 
-<p style="color:#2E86C1;"> 2021.03.11:   Two Long papers and one short paper accepted by <b>NAACL 2021</b>. </p>
+
+	    <p>
+         Check out my <a href="https://scholar.google.com/citations?user=HxTr-CtMdrsC">Google Scholar</a>, <a href="https://www.linkedin.com/in/yang-liu-2a0881b1/">Linkedin</a>, or <a href="mailto:yaliu10@microsoft.com">email me</a>.<br>
+	    </p>
+		
+		    </div>
+
+      <div >
+	  <!--
+	  <b> <a href="https://www.microsoft.com/en-us/research/people/yaliu10/">My new page at Microsoft</a></b> 
+	  -->
+         </section>
+         <section  class="news">
+         <h1>News:</h1>
+
+<p> 2021.03.11:   Two Long papers and one short paper accepted by <b>NAACL 2021</b>. </p>
 
 <!-- <p style="color:#2E86C1;"> 2021.01.15:   Our RE-T5 model achieved the first place in <a href="https://inklab.usc.edu/CommonGen/"> CommonGen</a> competition. </p> -->
-<p style="color:#2E86C1;"> 2020.10.14:   Achieved the first place in <a href="https://competitions.codalab.org/competitions/18814#results"><b>FEVER</b></a> competition.  </p>
+<p> 2020.10.14:   Achieved the first place in <a href="https://competitions.codalab.org/competitions/18814#results"><b>FEVER</b></a> competition.  </p>
                   
                   
                   
          </section>
-      <section id="pubs">
+      <section class="pubs">
          <h1>Publications:</h1>
-         <br>
-         <h2>Summarization:</h2>
+		 <p>
+         <h3>Summarization:</h3>
          <ul>
             
             
@@ -100,7 +112,7 @@
                http://link.springer.com/article/10.1007/s11280-016-0386-0" target="_blank"><i>Twitter Summarization with Social-Temporal Context</i></a><br>Ruifang He, Yang Liu, Guangchuan Yu, Jiliang Tang, Qinghua Hu and Jianwu Dang.  (<b>WWWJ</b>).
             </li>
          </ul>
-                     <h2>Latent Structure:</h2>
+                     <h3>Latent Structure:</h3>
 
         <ul>
             <li><i> Dependency Grammar Induction with a Neural Variational Transition-based Parser
@@ -114,7 +126,7 @@
                <a href="https://github.com/nlpyang/structured" target="_blank">[code]</a>
             </li>
         </ul>
-                    <h2>Discourse Parsing:</h2>
+                    <h3>Discourse Parsing:</h3>
 
         <ul>
             <li><i> <a href = "http://www.aclweb.org/anthology/D17-1133" target="_blank">Learning Contextually Informed Representations for Linear-time Discourse Parsing</a>
@@ -125,7 +137,7 @@
             </li>
             <li><i> <a href="http://arxiv.org/abs/1603.02776" target="_blank">Implicit Discourse Relation Classification via Multi-Task Neural Networks</a></i><br>Yang Liu and Sujian Li. (<b>AAAI 2016</b>).</li>
         </ul>
-                    <h2>Others:</h2>
+                    <h3>Others:</h3>
 
         <ul>
             <li>
@@ -136,8 +148,22 @@
             <li><i> <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9303/9544" target="_blank">A Novel Neural Topic Model and Its Supervised Extension</a></i><br>Cao Ziqiang, Li Sujian, Yang Liu, Li Wenjie and Ji Heng. (<b>AAAI 2015</b>).</li>
          </ul>
       </section>
+	  
+	        <section id="service">
+         <h1>Professional Services:</h1>
+		   <ul>
+		             <li>Area Chair:<br>NAACL 2021</li>
+		             <li>Conference PC Member:<br>ACL' 18, 19, 20, 21;&nbsp &nbsp EMNLP' 17, 18, 19, 20;&nbsp &nbsp NAACL' 18, 19, 20</li>
+ </ul>
+ </p>
+		       </section>
+
+		 
+
+
+	  
       <section id="projects">
-         <h1>Projects:</h1>
+         <h1>Experience:</h1>
          <ul>
             <li>(Intern at <b>Allen Institute for Artificial Intelligence</b>, 2017 Summer) Structured Alignment<br>Mentor: Matt Gardner</li>
             <li>(Intern at <b>MSRA</b>, 2014 - 2015) Chatbot<br>Mentor: Furu Wei</li>
