@@ -89,7 +89,10 @@ section:after {
 
 .author { color: #5E5E5E; font-family: 'Helvetica Neue'; font-size: 17px}
 
-.news b{ color: #ff7b25; font-family: "Roboto",sans-serif; }
+b{ color: #ff7b25;}
+
+
+.author b{ color: #ff7b25; font-family: "Roboto",sans-serif; }
 
 
 footer {
