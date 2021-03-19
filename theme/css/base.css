@@ -7,10 +7,10 @@ ul {
 
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 18px; line-height: 1.5; color: #000000; background-color: #fff; }
 
-a { color: #ff7b25; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: #ec6449; text-decoration: none; text-decoration: underline;}
+a:hover {  color: #f9994b; text-decoration: underline; }
 
-b, strong { font-weight: 600; }
+b, strong { font-weight: 300; }
 
 
 li {
@@ -89,10 +89,13 @@ section:after {
 
 .author { color: #5E5E5E; font-family: 'Helvetica Neue'; font-size: 17px}
 
-b{ color: #ff7b25;}
+.author a{ color: #ec6449; font-family: 'Helvetica Neue'; font-size: 17px}
 
 
-.author b{ color: #ff7b25; font-family: "Roboto",sans-serif; }
+b{ color: #ec6449;}
+
+
+.author b{ color: #ec6449; font-family: "Roboto",sans-serif; }
 
 
 footer {
