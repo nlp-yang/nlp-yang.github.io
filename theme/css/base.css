@@ -79,10 +79,17 @@ section:after {
 }
 
 
-.pubs b{ color: #ff7b25; }
-.pubs a{ color: #000000; font-family: Helvetica; font-weight: 400; font-size: 18px}
 
-.news b{ color: #ff7b25; }
+
+.paper { color: #000000;  font-weight: 400; font-size: 18px}
+.paper a{ color: #000000;  font-weight: 400; font-size: 18px;   text-decoration: underline;
+  text-decoration-color: #b2b2b2;
+
+}
+
+.author { color: #5E5E5E; font-family: 'Helvetica Neue'; font-size: 17px}
+
+.news b{ color: #ff7b25; font-family: "Roboto",sans-serif; }
 
 
 footer {
