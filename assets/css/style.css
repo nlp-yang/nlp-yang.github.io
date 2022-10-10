@@ -32,11 +32,11 @@ h1, h2, h3 { line-height: 1.1; }
 
 h1 { font-size: 28px; }
 
-a { color: #1953e6; text-decoration: none; }
+a { color: #1953e6; text-decoration: underline   #d1ddfa; }
 
 a:hover { color: #39c; }
 
-@media (prefers-color-scheme: dark) { a { color: #3eb7f0; } }
+@media (prefers-color-scheme: dark) { a { color: #3eb7f0; text-decoration: underline   #085477; } }
 
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
@@ -63,8 +63,6 @@ th { color: #444; }
 img { max-width: 100%; }
 
 header { width: 220px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; padding-top: 4.0em; text-align: center; }
-
-b { font-weight: 400; color: #1953e6; }
 
 b { font-weight: 400; color: #1953e6; }
 
