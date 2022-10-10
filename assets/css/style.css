@@ -28,7 +28,7 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image.avatar:before { display: none; }
 
-.image.avatar img { border-radius: 100%; width: 80%; padding: 20px; }
+.image.avatar img { border-radius: 100%; width: 95px; padding: 20px; }
 
 #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
 
@@ -77,6 +77,10 @@ img { max-width: 100%; }
 header { width: 220px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; padding-top: 4.0em; text-align: center; }
 
 b { font-weight: 400; color: #1953e6; }
+
+b { font-weight: 400; color: #1953e6; }
+
+@media (prefers-color-scheme: dark) { b { font-weight: 400; color: #3eb7f0; } }
 
 header ul { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 270px; }
 
